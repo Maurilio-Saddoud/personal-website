@@ -1,5 +1,6 @@
 {
-  "name": "alamin-port",
+  "name": "personal-website",
+  "homepage": "http://maurilio.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
