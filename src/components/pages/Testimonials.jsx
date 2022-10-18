@@ -25,11 +25,11 @@ export const Testimonials = () => {
                 <div className="quotation" data-aos="zoom-out-up">
                   <FormatQuoteIcon />
                 </div>
-                <p data-aos="zoom-out-down">{val.text}</p>
+                <p className="text" data-aos="zoom-out-down">{val.text}</p>
                 <div className="img" data-aos="zoom-out-right">
                   <img src={val.image} alt="" />
                 </div>
-                <h3 data-aos="zoom-out-left">{val.name}</h3>
+                <h3 className="name" data-aos="zoom-out-left">{val.name}</h3>
                 <label data-aos="zoom-out">{val.post}</label>
               </div>
             ))}

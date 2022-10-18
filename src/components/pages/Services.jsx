@@ -7,7 +7,7 @@ export const Services = () => {
     <>
       <section className='services'>
         <div className='container'>
-          <Heading title='Skills' />
+          <Heading title='Skills' className="heading"/>
           <div className='content grid3'>
             {services.map((item) => (
               <div className='box' data-aos='flip-left'>

@@ -19,7 +19,7 @@ export const Contact = () => {
     <>
       <div className="contact">
         <div className="container">
-          <Heading title="Keep In Touch" />
+          <Heading className="heading" title="Keep In Touch" />
           <div className="content flexsb">
             <div className="right">
               <form onSubmit={() => handleSend()}>

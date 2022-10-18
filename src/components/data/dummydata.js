@@ -72,7 +72,7 @@ export const services = [
     id: 5,
     icon: <Insights />,
     title: "Machine Learning",
-    desc: "Worked with the Next Gen team at Lowe's to build a new open source chatbot for their website, and improved the visual search model on their app (pyTorch).",
+    desc: "Worked with the Next Gen team at Lowe's to build a new open source chatbot for their website and improved the visual search model on their app by >10% (pyTorch).",
   },
   {
     id: 6,

@@ -166,25 +166,29 @@ section {
   color: var(--primaryColor);
   font-weight: 600;
   text-align: center;
-  margin-bottom: 60px;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 /*---------about-------------*/
 .about .primaryBtn {
   margin-left: 0px;
 }
+.about {
+  height: 100%;
+  margin: 5vh;
+}
 .about .heading {
   text-align: left;
   margin: 0;
 }
 .about .left {
-  width: 35%;
+  width: 100%;
   display: flex;
   align-items: center;
   margin-right: 25px
 }
 .about .right {
-  width: 65%;
+  width: 100%;
 }
 .about .container {
   display: flex;
@@ -338,6 +342,9 @@ label {
 .quotation {
   color: var(--primaryColor)
 }
+.testimonials .name {
+  margin-top: 5px;
+}
 /*---------testimonials-------------*/
 /*---------blog-------------*/
 .blog img {
@@ -383,6 +390,9 @@ label {
   display: flex;
   justify-content: center;
 }
+.contact .heading {
+  margin: 3rem 0rem 0rem 0rem;
+}
 /*---------contact-------------*/
 /*---------footer-------------*/
 footer {
@@ -398,7 +408,7 @@ footer i {
 /*---------footer-------------*/
 @media screen and (max-width: 768px) {
   .hero {
-    height: 60vh;
+    height: auto;
   }
   .heroContent {
     max-width: 80%;
